@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 100%;
+    background-image: url(images/Black\ and\ Blue\ Abstract\ LinkedIn\ banner\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.form-label{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.modificar{
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: 50px solid rgb(42, 63, 109);
+    background-color: rgb(0, 0, 14);
+}
+
+.botones{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ayuda{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.titulo{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.modificar{
+
+    color: aliceblue;
+}
+
+p,h1 {
+
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+h5 {
+
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+H6 {
+
+    color: aliceblue;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+h1 {
+
+    font-size: 60px;
+}

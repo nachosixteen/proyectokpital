@@ -1,0 +1,107 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+
+}
+
+.container {
+
+    display: grid;
+   grid-template-columns: repeat 50% , 50%;
+   gap: 15%  15%;
+   align-items: center;
+   align-content: center;
+   
+}
+
+.textf {
+
+    color: aliceblue;
+    font-size: 300%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #080808;
+    padding: 10px;
+    width: 100;
+    background-image: url(img/Black\ and\ Blue\ Abstract\ LinkedIn\ banner\ \(1\).png);
+    font-weight: bold;
+}
+
+.container div {
+
+    background-color: rgb(3, 20, 71);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container div:hover{
+
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(42, 63, 109);
+    color: rgb(255, 255, 255);
+}
+
+.container .raul1 {
+
+    grid-area: 1 / 2 / 2 /3;
+}
+
+.nav {
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container img {
+
+    width: 50%;
+    float: left;
+    border-radius: 1000px;
+    border: 1px solid black;
+    
+}
+
+.container .santi1 img {
+
+    width: 39%;
+    align-items: center;
+    align-content: center;
+}
+
+p{
+
+    font-size: 32px;
+}
+
+footer {
+
+    color: aliceblue;
+}
+
+@media screen and (max-width: 700px){
+
+ 
+}

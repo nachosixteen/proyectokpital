@@ -1,0 +1,106 @@
+*{
+
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.texto{
+
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.textf {
+
+    color: aliceblue;
+    font-size: 300%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #080808;
+    padding: 10px;
+    width: 100;
+    background-image: url(img/Black\ and\ Blue\ Abstract\ LinkedIn\ banner\ \(1\).png);
+    font-weight: bold;
+
+}
+
+
+
+.ty {
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container img {
+
+    display: flex;
+    position: absolute;
+
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(28, 138, 211);
+    border-bottom: 2px solid rgb(28, 138, 211);
+    animation: segunda 5s linear infinite;
+    
+}
+
+.circulo2  {
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 4px solid rgb(17, 3, 99);
+    border-top:2px solid yellow;
+    border-bottom: 2px solid yellow;
+    animation-name: segunda 1s linear infinite;
+}
+
+.textf p {
+
+    font-size: 30px;
+}
+
+@keyframes segunda{
+
+    0% {
+
+        transform: rotate(0deg);
+    }
+
+    100% {
+
+        transform: rotate(2000deg);
+    }
+}
+
+
+

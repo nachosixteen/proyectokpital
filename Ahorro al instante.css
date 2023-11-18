@@ -1,0 +1,107 @@
+body{
+    background-image: url(./images/fondo5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+.imginicio{
+    max-width: 200px;
+    justify-content: end;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    display:inline;
+    position: relative;
+    left: 200px;
+    top: 130px;
+}
+.boton1{
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
+.boton2{
+    position: relative;
+    left: 980px;
+    top: 106px;
+}
+.texto{
+    position: relative;
+    left: 700px;
+    top: -40px;
+
+
+}
+.boton3{
+    background-color: rgb(0, 119, 255);
+    color: black;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 0px rgb(199, 13, 13) ;
+    animation: heartbeat 1s infinite;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    
+   
+}
+
+@keyframes heartbeat{
+
+    0%{
+        transform: scale(1);
+        box-shadow: 0px 0px 0px 0px rgb(0, 0, 0) ;
+    }
+    50%{
+        transform: scale(1.05);
+        box-shadow:  0px 0px 0px 0px hsl(0, 100%, 50%) ;
+    }
+    
+    100%{
+        transform: scale(1.05);
+        box-shadow:  0px 0px 0px 0px hsla(251, 100%, 50%, 0.918) ;
+
+    }
+    
+        
+    }
+
+ 
+
+
+.contenedor3{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    animation: move 5s infinite;
+    animation-timing-function: steps(5);
+  }
+
+  @keyframes move {
+    to { transform: translateX(1500px); }
+  }
+  
+
+
+.element{
+    
+}
+footer{
+    position: relative;
+    
+    top: 520px;
+    right: 8px;
+    
+    
+
+   
+}

@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/INDEXlogo.png);
+    background-size: contain;
+    
+}
+
+h1.titulo {
+    text-align: center;
+    margin: 50px;
+    color: white;
+    background-color: #05303d;
+}
+h5{
+    text-align: center;
+    color: white;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav .botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    color: #1b4052;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #1b4052;
+    text-align: left;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+nav div {
+    display: inline-block;
+    margin: 20px;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

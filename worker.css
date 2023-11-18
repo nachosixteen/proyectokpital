@@ -1,0 +1,29 @@
+.botonahorro {
+    display: flex;
+    justify-content: end;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px; 
+}
+body{
+    background-image: url("images/alerta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    display: auto;
+    justify-content: center;
+}
+
+h1{
+    color: aliceblue;
+}
+.cerrar{
+    display: flex;
+    justify-content:flex-start;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}

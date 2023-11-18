@@ -1,0 +1,21 @@
+body{
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    
+}
+
+main {
+    position:relative;
+    text-align: center;
+}
+
+.imagen{
+    position:relative;
+    text-align: center;  
+}
+

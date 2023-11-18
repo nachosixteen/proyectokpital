@@ -1,0 +1,22 @@
+.carousel-item{
+    max-height: 500px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0dfdf;
+}
+h1 {
+    font-size: 20px;
+}
+.container {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content:space-around;
+}
+.simulador{
+    margin-top: 4%;
+    border-radius: 8px;
+}

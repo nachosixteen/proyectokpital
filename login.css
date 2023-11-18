@@ -1,0 +1,30 @@
+body{
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+main{
+    position:relative;
+    text-align: center;
+
+}
+
+p{
+    font-size: 30px;
+
+}
+
+a{
+    font-size: 20px;
+    color: azure;
+}
+.inicio{
+    color: #1b4052;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

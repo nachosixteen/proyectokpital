@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="kpital.java">
+    <title>Kpital</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="bootstrap.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h1>Kpital</h1>
+        <br>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Somos.html">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registrate.html">Registrarme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Iniciar sesión</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- carrusel -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/carrusel3.png" class="d-block w-100" alt="jasn" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/carrusel2.png" class="d-block w-100" alt="mensaje" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/ahora.png" class="d-block w-100" alt="carrusel" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/consejo.png" class="d-block w-100" alt="consejo" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/carrusel6.png" class="d-block w-100" alt="cta" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous">
+   </script>
+   <br>
+   <br>
+   <br>
+    <div class="container">
+      <img src="images/publicidad1.jpg" width="300px" alt="burguerking" class="izquierda">
+      <div class="simulador">
+        <h1>Simulador</h1>
+        <br>
+        <h6>Digita el total de tus ingresos mensuales</h6> 
+        <br>
+    <form>
+        <label for="cantidad">Cantidad:</label>
+        <input type="text" id="cantidad" placeholder="No uses (.)">
+        <br>
+        <br>
+        <button type="button" onclick="calcularFracciones()">Calcular</button>
+        <button type="reset" value="borrar">Borrar</button>
+
+    </form>
+
+    <!-- Script para manejar el cálculo y mostrar las fracciones -->
+    <script>
+        function calcularFracciones() {
+            // Obtener el valor ingresado por el usuario
+            var cantidad = document.getElementById("cantidad").value;
+
+            // Validar que se haya ingresado un número
+            if (isNaN(cantidad) || cantidad === "") {
+                alert("Por favor, ingrese una cantidad válida.");
+                return;
+            }
+
+            // Calcular las fracciones
+            var porcentaje50 = cantidad * 0.5;
+            var porcentaje30 = cantidad * 0.3;
+            var porcentaje20 = cantidad * 0.2;
+
+            // Mostrar resultados
+            var mensaje =  "Para tus gastos fijos 50%: $" + porcentaje50.toFixed(2) + "\n" +
+                           "Para otros gastos 30%: $" + porcentaje30.toFixed(2) + "\n" +
+                           "Para tus ahorros 20%: $" + porcentaje20.toFixed(2);
+
+            alert(mensaje);
+        }
+    </script>
+      </div>
+      <img src="images/publicidad2.jpg" width="300px" alt="candelabic" class="derecha">
+    </div>          
+  </body>
+  <br>
+  <hr>
+  <br>
+  <footer>
+    <h2 id="email"> Ingresa tu email </h2>
+    <p class="email1"> Te enviaremos toda la información de los beneficios de suscribirte a nuestra plataforma. </p>
+    <input type="email" placeholder="email@example.com">
+    <button type="submit"> Enviar </button>
+    <br>
+    <br>
+    <h5 class="email2"> ¡Alcanza con nosotros tu propia libertad financiera! </h5>
+    <br>
+    <br>
+    <h6>Contacto: (+57) 320 265 6485</h6>
+    <h6>sackpital@kpital.com.co</h6>
+  </footer>
+</html>
